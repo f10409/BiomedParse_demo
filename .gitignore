@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.ipynb_checkpoints/
+key.txt
+.python-version
+weights/
+keys.py
+lightning_logs/
+BiomedParse/
+steps.txt
