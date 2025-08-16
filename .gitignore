@@ -16,3 +16,4 @@ keys.py
 lightning_logs/
 BiomedParse/
 steps.txt
+other/

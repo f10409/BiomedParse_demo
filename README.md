@@ -1,11 +1,25 @@
-# BiomedParse_demo
+# BiomedParse Demo
+Zero-shot for medical image segmentation with BiomedParse.
 
-1. cd ~
-2. git clone https://github.com/f10409/BiomedParse_demo.git
-3. cd ~/BiomedParse_demo
-4. conda deactivate
-5. uv sync
-6. git clone https://github.com/microsoft/BiomedParse
-7. source .venv/bin/activate
-8. uv add git+https://github.com/facebookresearch/detectron2.git --no-build-isolation
-9. python -m ipykernel install --user --name biomedparse
+**Po-Chih Kuo & Frank Li** | Datathon 2025
+
+## Usage
+```bash
+cd ~
+git clone https://github.com/f10409/BiomedParse_demo.git
+cd ~/BiomedParse_demo
+git clone https://github.com/microsoft/BiomedParse
+```
+Launch Jupyter and select the `biomedparse` kernel to run the demo.
+
+## Installation
+If the pre-installed environment doesn't work:
+```bash
+cd ~/BiomedParse_demo
+conda deactivate
+uv sync
+source .venv/bin/activate
+uv add git+https://github.com/facebookresearch/detectron2.git --no-build-isolation
+python -m ipykernel install --user --name biomedparse
+```
+Launch Jupyter and select the `medgemma` kernel to run the demo.
