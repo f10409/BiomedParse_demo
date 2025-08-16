@@ -22,4 +22,4 @@ source .venv/bin/activate
 uv add git+https://github.com/facebookresearch/detectron2.git --no-build-isolation
 python -m ipykernel install --user --name biomedparse
 ```
-Launch Jupyter and select the `medgemma` kernel to run the demo.
+Launch Jupyter and select the `biomedparse` kernel to run the demo.
