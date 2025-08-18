@@ -14,7 +14,7 @@ cp -f /mnt/efs/data/datasets/BiomedParse/biomedparse_v1.pt ./BiomedParse/pretrai
 ```
 Launch Jupyter and select the `biomedparse` kernel to run the demo.
 
-## Installation
+## Installation (Optional)
 If the pre-installed environment doesn't work:
 ```bash
 cd ~/BiomedParse_demo
