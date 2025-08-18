@@ -10,7 +10,7 @@ git clone https://github.com/f10409/BiomedParse_demo.git
 cd ~/BiomedParse_demo
 git clone https://github.com/microsoft/BiomedParse
 mkdir ~/BiomedParse_demo/BiomedParse/pretrained
-cp -f /mnt/efs/data/datasets/BiomedParse/biomedparse_v1.pt ~/BiomedParse_demo/BiomedParse/pretrained/biomedparse_v1.pt
+cp -f /mnt/efs/data/datasets/BiomedParse/biomedparse_v1.pt ./BiomedParse/pretrained/biomedparse_v1.pt
 ```
 Launch Jupyter and select the `biomedparse` kernel to run the demo.
 
